@@ -1,0 +1,192 @@
+/****** BASE STYLES ******/
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: hsl(300, 100%, 97%);
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#top-section {
+	height: 500px;
+	margin: 10px auto;
+	margin-bottom: 130px;
+}
+
+#middle-section {
+	height: 700px;
+	margin: 50px auto;
+}
+
+#bottom-section {
+  height: 450px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Anton', sans-serif;
+	color: #3333ff;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	background-color: white;
+	font-size: 60px;
+	margin: 0 200px;
+}
+
+h2 {
+	background-color: white;
+	font-size: 30px;
+	text-transform: none;
+	margin: 0 200px 20px 200px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+#middle-section h3,
+#bottom-section h3 {
+	background-color: hsl(0, 0%, 95%);
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+  padding: 0 30px;
+}
+
+/********** GRID **********/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 560px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/********** HEADER **********/
+
+header {
+	height: 110px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+h1 span {
+	background-image: linear-gradient(purple,magenta,red);
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+/********** FEATURE IMAGE SECTION **********/
+
+.feature-image {
+	height: auto;
+}
+
+#img-caption {
+	background-color: white;
+	text-align: center;
+	margin: 0 200px;
+	padding: 0;
+}
+
+/********** TIMELINE SECTION **********/
+
+#left,
+#middle,
+#right {
+	width: 399px;
+	height: auto;
+	margin-top: 30px;
+	float: left;
+}
+
+#left,
+#right {
+	margin-top: 80px;
+}
+
+#middle {
+	background-color: lavender;
+	border-radius: 50%;
+}
+
+ul {
+  text-align: left;
+  list-style: none;
+	margin: 0 auto;
+	margin-right: 40px;
+}
+
+li {
+  margin: 12px 0;
+}
+
+.underline {
+	font-weight: 900;
+	text-decoration: underline;
+}
+
+/********** QUOTE SECTION **********/
+
+#bottom-section .half-width {
+	height: 350px;
+	background-color: #e6f7ff;
+	margin: 0 20px;
+	padding: 20px 0;
+}
+
+#bottom-section .bold {
+	font-weight: 900;
+}
+
+/********** FOOTER **********/
+
+footer {
+	height: 50px;
+	text-align: center;
+	border-top: 1px solid #f0eef0;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+footer span {
+	background-image:
+		linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+	color:transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+footer a {
+	text-decoration: none;
+	color: cyan;
+}
